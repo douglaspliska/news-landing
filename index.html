@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description"
+            content="NewsLanding is the place to be for unbiased news. No opinions are included, just facts for you to make up your own decisions"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700" rel="stylesheet">
+        <link rel="stylesheet" href="css/general.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/queries.css" />
+        <title>NewsLanding</title>
+    </head>
+    <body>
+        <header class="header">
+        <div class="logo">
+            <ion-icon class="logo-icon" name="newspaper-outline"></ion-icon>
+            <h1 class="heading-header">NewsLanding</h1>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li><a class="main-nav-link" href="#">Home</a></li>
+                <li><a class="main-nav-link" href="#how">How It Works</a></li>
+                <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
+                <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+                <li><a class="main-nav-link nav-cta btn btn--full" href="#cta">Sign up now</a></li>
+            </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+        </header>
+        <main>
+            <section class="section-hero">
+                <div class="hero">
+                    <div class="hero-text-box">
+                        <h1 class="heading-primary">News brief without the bias</h1>
+                        <p class="hero-description">
+                            We take news from top sources, filter out opinions,
+                            and give you a summary of what matters for you to decide what to think
+                        </p>
+                        <a href="#cta" class="btn btn--full margin-right-sm">Join Now!</a>
+                        <a href="#how" class="btn btn--outline">Learn More</a>
+                    </div>
+                    <div class="hero-img-box">
+                        <picture>
+                            <source srcset="img/main.webp" type="image/webp">
+                            <source srcset="img/main.png" type="image/png">
+                            <img
+                            src="img/main.webp"
+                            class="hero-img"
+                            alt="Group of current event images"/>
+                        </picture>
+                    </div>
+                    </div>
+                    <div class="hero-sources center-element">
+                        <h2 class="heading-sources">Trusted Sources</h2>
+                        <div class="logos">
+                        <img src="img/ap.png" alt="AP News" />
+                        <img src="img/bbc.png" alt="Reuters" />
+                        <img src="img/reuters.png" alt="Reuters" />
+                        <img src="img/nyt.png" alt="The New York Times" />
+                        <img src="img/wsj.png" alt="The Wall Street Journal" />
+                    </div>
+                </div>
+            </section>
+            <section class="section-how" id="how">
+                <div class="container">
+                    <div class="section-how-heading">
+                        <h2 class="heading-secondary">For the individual</h2>
+                        <p class="subheading">how it works</p>
+                    </div>
+                    <div class="section-how-descriptions grid grid--2x2">
+                        <div class="description-image image-1">
+                            <div class="description-box center-element">
+                                <picture>
+                                    <source srcset="img/team.webp" type="image/webp">
+                                    <source srcset="img/team.png" type="image/png">
+                                    <img
+                                    src="img/research.png"
+                                    class="description-img"
+                                    alt="Team discussing a topic in a conference room"/>
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="description-text text-1">
+                            <div class="description-text">
+                                <div class="description-box how-border-top center-element">
+                                    <p class="description-text">
+                                        Our team of dedicated professionals is trained to scan through current events and remove any political bias found. After filtering out the bias, they formulate concise summaries of the events which are then put together to form your news for the day.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description-text text-2">
+                            <div class="description-box how-border-top center-element">
+                                <p class="description-text">
+                                    Our news is based on actual statistics and data from trusted sources. All opinions will be left out. We believe strongly in fact-based information which you can then use to come up with your own opinions and decisions on. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="description-image image-2">
+                            <div class="description-box center-element">
+                                <picture>
+                                    <source srcset="img/research.webp" type="image/webp">
+                                    <source srcset="img/research.png" type="image/png">
+                                    <img
+                                    src="img/research.png"
+                                    class="description-img"
+                                    alt="Researchers performing an experiment"/>
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-how-features center-element grid grid--4-cols">
+                        <feature class="feature">
+                            <ion-icon class="icons" name="time-outline"></ion-icon>
+                            <p class="feature-title">Save Time</p>
+                            <p class="feature-text">Quit sifting through multiple sites and get a brief summary of current events from top news sources</p>
+                        </feature>
+                        <feature class="feature">
+                            <ion-icon class="icons" name="flash-off-outline"></ion-icon>
+                            <p class="feature-title">No Agenda</p>
+                            <p class="feature-text">Our policy ensures that you will not be pressured into following other people's political opinions</p>
+                        </feature>
+                        <feature class="feature">
+                            <ion-icon class="icons" name="analytics-outline"></ion-icon>
+                            <p class="feature-title">Facts and Data</p>
+                            <p class="feature-text">We only give you the facts and data so you can come up with your own thoughts and analysis</p>
+                        </feature>
+                        <feature class="feature">
+                            <ion-icon class="icons" name="reader-outline"></ion-icon>
+                            <p class="feature-title">Simple Design</p>
+                            <p class="feature-text">Our content  is designed for people with busy lives who want to stay informed</p>
+                        </feature>
+                    </div>
+                </div>
+            </section>
+            <section class="section-testimonials" id="testimonials">
+                <div class="container">
+                    <h2 class="heading-secondary">What others are saying</h2>
+                    <p class="subheading">Testimonials</p>
+                    <div class="card-main center-element grid grid--3-cols">
+                        <div class="card-box">
+                            <picture>
+                                <source srcset="img/guy.webp" type="image/webp">
+                                <source srcset="img/guy.png" type="image/png">
+                                <img
+                                src="img/guy.webp"
+                                alt="Guy reading news on his phone"
+                            />
+                            </picture>
+                            <div class="card-description">
+                            <blockquote class="blockquote">
+                                    <span class="quotes">&#34;</span>
+                                    I've finally found a news service where I can get the top stories in an easy to read format without all the noise.
+                                    <span class="quotes">&#34;</span>
+                                </blockquote>
+                                <p class="username">&#45; Ron Jackson</p>
+                            </div>
+                        </div>  
+                        <div class="card-box">
+                            <picture>
+                                <source srcset="img/girl.webp" type="image/webp">
+                                <source srcset="img/girl.png" type="image/png">
+                                <img
+                                src="img/girl.webp"
+                                alt="Girl reading news on her phone"/>
+                            </picture>
+                            <div class="card-description">
+                                <blockquote class="blockquote">
+                                    <span class="quotes">&#34;</span>
+                                    I really love the feature that allows me to save stories automatically. I enjoy being able to catch up off the grid.
+                                    <span class="quotes">&#34;</span></blockquote>
+                                <p class="username">&#45; Malinda Murkowski</p>
+                            </div>
+                        </div>
+                        <div class="card-box">
+                            <picture>
+                                <source srcset="img/guy1.webp" type="image/webp">
+                                <source srcset="img/guy1.png" type="image/png">
+                                <img
+                                src="img/guy1.webp"
+                                class="description-img"
+                                alt="Guy reading news on his phone"/>
+                            </picture>
+                            <div class="card-description">
+                                <blockquote class="blockquote">
+                                    <span class="quotes">&#34;</span>
+                                    You can't find a better way to get caught up with current events. It's nice not being told how to react.
+                                    <span class="quotes">&#34;</span>
+                                </blockquote>
+                                <p class="username">&#45; Josh Whitmer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-pricing" id="pricing">
+                <div class="container">
+                    <h2 class="heading-secondary">Choose your plan</h2>
+                    <p class="subheading">Pricing</p>
+                    <div class="price-cards center-element grid grid--3-cols">
+                        <a href="#cta" class="price-box elite center-text">
+                            <div class="price-box-plan best">
+                                <p>Elite Plan</p>
+                            </div>  
+                            <div class="plan-price center-element">
+                                <p class="sign">&#36;</p>
+                                <p class="number">100<span class="duration">/ year</span></p>
+                            </div>
+                            <ul class="plan-list center-element">
+                                <li>
+                                    <ion-icon class="plan-icon" name="chevron-forward-outline"></ion-icon>
+                                    News brief without the bias
+                                </li>
+                                <li>
+                                    <ion-icon class="plan-icon" name="chevron-forward-outline"></ion-icon>
+                                    Save articles for offline viewing
+                                </li>
+                                <li>
+                                    <ion-icon class="plan-icon" name="chevron-forward-outline"></ion-icon>
+                                    Read on any device
+                                </li>
+                                <li>
+                                    <ion-icon class="plan-icon" name="chevron-forward-outline"></ion-icon>
+                                    Save $60 a year!
+                                </li> 
+                            </ul> 
+                        </a>
+                        <a href="#cta" class="price-box center-text">
+                            <div class="price-box-plan">
+                                <p>Premium Plan</p>
+                            </div>  
+                            <div class="plan-price center-element">
+                                <p class="sign">&#36;</p>
+                                <p class="number">15<span class="duration">/ month</span></p>
+                            </div> 
+                            <ul class="plan-list center-element">
+                                <li>
+                                    <ion-icon class="plan-icon" name="chevron-forward-outline"></ion-icon>
+                                    News brief without the bias
+                                </li>
+                                <li>
+                                    <ion-icon class="plan-icon" name="chevron-forward-outline"></ion-icon>
+                                    Save articles for offline viewing
+                                </li>
+                                <li>
+                                    <ion-icon class="plan-icon" name="chevron-forward-outline"></ion-icon>
+                                    Read on any device
+                                </li>
+                                <li>
+                                    <ion-icon class="plan-icon" name="chevron-forward-outline"></ion-icon>
+                                    Pay each month
+                                </li>
+                            </ul> 
+                        </a>
+                        <a href="#cta" class="price-box center-text">
+                            <div class="price-box-plan">
+                                <p>Starter Plan</p>
+                            </div>  
+                            <div class="plan-price center-element">
+                                <p class="sign">&#36;</p>
+                                <p class="number">5<span class="duration">/ month</span></p>
+                            </div> 
+                           <ul class="plan-list center-element">
+                            <li>
+                                <ion-icon class="plan-icon" name="chevron-forward-outline"></ion-icon>
+                                News brief without the bias
+                            </li>
+                            <li>
+                                <ion-icon class="plan-icon" name="chevron-forward-outline"></ion-icon>
+                                Save articles for offline viewing
+                            </li>
+                            <li>
+                                <ion-icon class="plan-icon" name="chevron-forward-outline"></ion-icon>
+                                Desktop version only
+                            </li>
+                            <li>
+                                <ion-icon class="plan-icon" name="chevron-forward-outline"></ion-icon>
+                                Ad-supported content
+                            </li>
+                            </ul> 
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="section-cta" id="cta">
+                <div class="container">
+                    <div class="section-cta-content center-element">
+                        <div class="cta-form-box">
+                            <h2 class="cta-heading center-text">Tired of being told how to think?</h2>
+                            <p class="subheading center-text">join the waitlist!</p>
+                            <form class="cta-form" name="sign-up" netlify>
+                                <div class="form-grid grid--2x2">
+                                    <div class="label-input name-input">
+                                        <label for="name">Name:</label>
+                                        <input
+                                            id="name"
+                                            type="text"
+                                            placeholder="John Smith"
+                                            name="name"
+                                            required/>
+                                    </div>
+                                    <div class="radio-container center-text">
+                                        <p>Select a plan:</p>
+                                        <div class="btn-radio">
+                                            <div class="radio-input">
+                                                <input
+                                                    id="plan-1"
+                                                    class="plan-input"
+                                                    type="radio"
+                                                    name="plan"
+                                                    value="Elite Plan"
+                                                    required/>
+                                                <label for="plan-1" class="plan-label"> 
+                                                    <span class="radio-check"></span>
+                                                    Elite
+                                                </label>
+                                            </div>
+                                            <div class="radio-input">
+                                                <input
+                                                    id="plan-2"
+                                                    class="plan-input"
+                                                    type="radio"
+                                                    name="plan"
+                                                    value="Premium Plan"/>
+                                                <label for="plan-2" class="plan-label">
+                                                    <span class="radio-check"></span>
+                                                    Premium
+                                                </label>
+                                            </div>
+                                            <div class="radio-input">
+                                                <input
+                                                    id="plan-3"
+                                                    class="plan-input"
+                                                    type="radio"
+                                                    name="plan"
+                                                    value="Starter Plan"/>
+                                                <label for="plan-3" class="plan-label">
+                                                    <span class="radio-check"></span>
+                                                    Starter
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="label-input email-input">
+                                        <label for="email">Email:</label>
+                                        <input
+                                            id="email"
+                                            type="email"
+                                            placeholder="me@example.com"
+                                            name="email"
+                                            required/>
+                                    </div>
+                                    <button class="btn-form">Sign up now</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="cta-img-box"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-main-section">
+                    <ion-icon class="footer-logo" name="newspaper-outline"></ion-icon>
+                    <p class="footer-description">News without the bias</p>
+                    <ul class="social-links">
+                        <li>
+                            <a class="footer-link" href="#"
+                            ><ion-icon
+                            class="social-icon"
+                            name="logo-instagram"
+                            ></ion-icon></a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#"
+                            ><ion-icon
+                            class="social-icon"
+                            name="logo-facebook"
+                            ></ion-icon></a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#"
+                            ><ion-icon
+                            class="social-icon"
+                            name="logo-twitter"
+                            ></ion-icon></a>
+                        </li>
+                    </ul>
+                    <p class="copyright">Copyright &copy; <span class="year">2021</span> by NewsLanding, Inc.All rights reserved</p>
+                </div>
+                <div class="address-col">
+                    <p class="footer-heading">Contact us</p>
+                    <address class="contacts">
+                        <p class="address">
+                            57 Broad St. Suite 7A, Houston, TX 770024
+                        </p>
+                        <p>
+                            <div class="contact-links">
+                            <a class="footer-link contact-link" href="tel:713-473-6870">713-473-6870</a>
+                            <br />
+                            <a class="footer-link contact-link" href="mailto:hello@me.com">hello@me.com</a>
+                            </div>
+                        </p>
+                    </address>
+                </div>
+                <nav class="nav-col">
+                    <p class="footer-heading">Account</p>
+                    <ul class="footer-nav">
+                        <li><a class="footer-link" href="#">Create account</a></li>
+                        <li><a class="footer-link" href="#">Sign in</a></li>
+                        <li><a class="footer-link" href="#">iOS app</a></li>
+                        <li><a class="footer-link" href="#">Android app</a></li>
+                    </ul>
+                </nav>
+                <nav class="nav-col">
+                    <p class="footer-heading">Company</p>
+                    <ul class="footer-nav">
+                        <li><a class="footer-link" href="#">About Us</a></li>
+                        <li><a class="footer-link" href="#">Careers</a></li>
+                        <li><a class="footer-link" href="#">Clients </a></li>
+                        <li><a class="footer-link" href="#">Outreach</a></li>
+                    </ul>
+                </nav>
+                <nav class="nav-col">
+                    <p class="footer-heading">Resources</p>
+                    <ul class="footer-nav">
+                        <li><a class="footer-link" href="#">News Sources </a></li>
+                        <li><a class="footer-link" href="#">Help center </a></li>
+                        <li><a class="footer-link" href="#">Privacy & terms</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
